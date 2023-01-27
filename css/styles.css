@@ -1,0 +1,131 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#title{
+    background-color: #ff4c68;
+    color: aliceblue;
+}
+h1{
+    font-family: "Monserrat-black"; font-size: 3rem;
+    line-height: 1.5;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+
+}
+.navbar{
+   padding: 0 0 4.5rem;
+}
+.navbar-brand{
+ 
+    font-family: "Ubuntu";
+    font-size: 35px;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 12px;
+}
+.nav-link{
+    font-size: 20px;
+}
+.btn{
+    margin: 5% 3% 5% 0;
+}
+.image1{
+    width: 18%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+    
+}
+h3{
+   font-weight: bold; 
+   font-size: 25px;
+
+}
+
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+    
+   
+}
+.featured-box{
+    text-align: center;
+    padding: 5%;
+}
+.cliente{
+    color: rgb(243, 165, 20)
+  
+}
+.cliente:hover{
+    color: #ff4c68;
+}
+p {
+    color: gray;
+}
+#testimonials{
+    
+text-align: center;
+background-color: #ff4c68;
+color: antiquewhite;
+
+}
+
+h2{
+    font-family: Georgia, bold;
+    font-size: 40px;
+    line-height: 1;
+}
+
+
+#press{
+    background-color: #ff4c68;
+    text-align: center; padding-bottom: 3%;
+}
+.patri{
+    width: 15%; margin: 20px 20px 50px;
+}
+.testimonial-image{
+    width: 20%; border-radius: 100%; margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.preço{
+    padding: 3% 2%;
+}
+@media (max-width: 1028px) {
+   #title {  
+    text-align: center;
+   }
+   
+    .image1 {
+        position: static;
+        transform: rotate(0);
+    }
+}
+#cta{
+    background-color: #ff4c68; text-align: center;
+    padding: 80px 0 0 0; font-family: "Montserrat-black"; color: #fff;
+}
+
+
+#footer{
+    text-align: center; padding: 50px; background-color: #fff;
+}
+.cta-head{
+    font-size: 3rem;
+}
+.social-ico{
+    margin: 20px 10px;
+}
